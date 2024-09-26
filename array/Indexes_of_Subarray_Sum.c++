@@ -4,3 +4,4 @@
 // In case of multiple subarrays,return the subarray indexes which come first on moving
 //  from left to right.If no such subarray exists return an array consisting of element - 1.
 
+
