@@ -1,5 +1,9 @@
 package array.oops;
 
+/**
+ * The Constructor class represents a simple example of a class with a constructor
+ * that initializes an instance variable.
+ */
 public class Constructor {
     int x;
 
