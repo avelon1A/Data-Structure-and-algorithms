@@ -15,7 +15,7 @@ class MyRunnable implements Runnable {
 }
 
 public class ThreadExample2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         MyRunnable newRun = new MyRunnable();
 
         // Create threads
@@ -28,6 +28,7 @@ public class ThreadExample2 {
 
         // Start threads
         t2.start(); // Start the second thread first
+        t2.join();
         t1.start(); // Start the first thread
 
         // Output thread status
